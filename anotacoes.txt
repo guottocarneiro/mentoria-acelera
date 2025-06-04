@@ -1,0 +1,24 @@
+Https://www.yoko.com/produto
+
+POST
+/produto
+
+Nome
+Preço
+Categoria
+
+
+Path - Rota
+Query - Consulta
+Body - Corpo (COM EXCEÇÃO DO GET)
+
+
+
+
+
+Https://www.yoko.com/produto/7
+DELETE
+
+https://www.magazineluiza.com.br/_next/data/-OtdKHnlKM2h4OJVH3F3f/kindle-paperwhite-12a-geracao-2024-amazon-7-16gb-300-ppi-wi-fi-a-prova-de-agua-preto-metalico/p/238872100/tb/kind.json
+
+?seller_id=magazineluiza&path0=kindle-paperwhite-12a-geracao-2024-amazon-7-16gb-300-ppi-wi-fi-a-prova-de-agua-preto-metalico&path2=238872100&path3=tb&path4=kind
