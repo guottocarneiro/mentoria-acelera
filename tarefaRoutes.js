@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const tarefaController = require('./tarefaController');
+const tarefaController = require('./controllers/tarefaController');
 
 // Rota para listar todas as tarefas (GET /tarefas) // GET -> https://www.tarefas.com/ 
 router.get('/', tarefaController.listarTarefas);

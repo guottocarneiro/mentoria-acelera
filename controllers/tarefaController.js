@@ -1,5 +1,5 @@
 // controllers/tarefaController.js
-const tarefaService = require('./tarefaService');
+const tarefaService = require('./services/tarefaService');
 
 class TarefaController {
   listarTarefas(req, res) {

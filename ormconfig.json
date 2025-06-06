@@ -1,0 +1,10 @@
+{
+  "type": "postgre",
+  "host": "localhost",
+  "port": 3306,
+  "username": "seu_usuario",
+  "password": "sua_senha",
+  "database": "nome_do_banco",
+  "synchronize": true,
+  "entities": ["src/entity/*.ts"]
+}
