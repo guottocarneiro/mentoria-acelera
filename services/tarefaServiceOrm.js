@@ -1,8 +1,8 @@
-import { MyDataSource } from "../data-source";
+// import { MyDataSource } from "../data-source";
 
-export class TarefaServiceOrm {
-  tarefaRepository = MyDataSource.getRepository(Tarefa);
-}
+// export class TarefaServiceOrm {
+//   tarefaRepository = MyDataSource.getRepository(Tarefa);
+// }
 
   
 

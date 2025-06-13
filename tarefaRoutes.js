@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-import TarefaController from './controllers/tarefaController';
+import TarefaController from './controllers/tarefaController.js';
 
 // Rota para listar todas as tarefas (GET /tarefas) // GET -> https://www.tarefas.com/ 
 router.get('/', TarefaController.listarTarefas);

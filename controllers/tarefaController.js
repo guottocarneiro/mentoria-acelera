@@ -1,5 +1,5 @@
 // controllers/tarefaController.js
-import TarefaService from "../services/tarefaService";
+import TarefaService from "../services/tarefaService.js";
 
 class TarefaController {
   listarTarefas(req, res) {

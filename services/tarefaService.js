@@ -1,5 +1,5 @@
 // services/tarefaService.js
-import Tarefa from '../models/Tarefa';
+import Tarefa from '../models/Tarefa.js';
 const { LowSync } = require('lowdb');
 
 // --- Nosso Adaptador Síncrono em Memória Personalizado ---
