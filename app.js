@@ -1,6 +1,6 @@
 // app.js / 
-const express = require('express');
-const tarefaRoutes = require('./tarefaRoutes');
+import express from 'express'
+import TarefaRoutes from './tarefaRoutes'
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 });
 
 // Usar as rotas de tarefas sob o prefixo /api/tarefas
-app.use('/api/tarefas', tarefaRoutes);
+app.use('/api/tarefas', TarefaRoutes);
 
 // Rota raiz simples
 app.get('/', (req, res) => {
